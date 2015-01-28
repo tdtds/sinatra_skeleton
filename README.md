@@ -1,6 +1,6 @@
-# my sinatra web applicaqtion skelton
+# my sinatra web application skelton
 
-A Web applicaqtion skelton mainly running on Heroku.
+A Web application skelton mainly running on Heroku.
 
 using:
 

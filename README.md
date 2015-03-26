@@ -1,6 +1,6 @@
-# my sinatra web application skelton
+# my sinatra web application skeleton
 
-A Web application skelton mainly running on Heroku.
+A Web application skeleton mainly running on Heroku.
 
 using:
 
@@ -12,4 +12,4 @@ using:
 * Dalli for using memcached
 * RSpec
 
-before using this skelton, ```git grep -i fixme``` and replace they to your app name.
+before using this skeleton, ```git grep -i fixme``` and replace they to your app name.

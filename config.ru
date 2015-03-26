@@ -1,3 +1,3 @@
 require './app'
 use Rack::Logger
-run App
+run FixMe

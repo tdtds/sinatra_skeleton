@@ -11,3 +11,5 @@ using:
 * Mongoid for storage
 * Dalli for using memcached
 * RSpec
+
+before using this skelton, ```git grep -i fixme``` and replace they to your app name.

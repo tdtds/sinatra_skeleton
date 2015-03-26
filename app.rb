@@ -5,7 +5,7 @@ Bundler.require
 require 'omniauth'
 require 'omniauth-twitter'
 
-class App < Sinatra::Base
+class FixMe < Sinatra::Base
 	set :haml, {format: :html5, escape_html: true}
 	enable :logging
 

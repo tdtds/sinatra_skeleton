@@ -6,6 +6,7 @@ using:
 
 * Sinatra
 * haml for view template engine
+* assets pipeline
 * Twitter OAuth by OmniAuth
 * Mongoid for storage
 * Dalli for using memcached

@@ -12,13 +12,13 @@ jQuery.ajaxSetup({
 	}
 });
 
-var DynamicSection = React.createClass({displayName: "DynamicSection",
-	render:function() {
-		return React.createElement("p", null, "FixMe: this is dynamic section");
+var DynamicSection = React.createClass({
+	render() {
+		return <p>FixMe: this is dynamic section</p>;
 	}
 });
 
 var dynamicSection = document.getElementById('dynamic_section');
 if (dynamicSection) {
-	React.render(React.createElement(DynamicSection, null), dynamicSection);
+	React.render(<DynamicSection />, dynamicSection);
 }

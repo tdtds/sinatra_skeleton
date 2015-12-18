@@ -4,10 +4,10 @@
   "env":{
     "LANG":"ja_JP.UTF-8",
     "RACK_ENV":"production",
-    "TWITTER_CONSUMER_ID": {
+    "TWITTER_KEY": {
       "required": true
     },
-    "TWITTER_CONSUMER_SECRET": {
+    "TWITTER_SECRET": {
       "required": true
     }
   },

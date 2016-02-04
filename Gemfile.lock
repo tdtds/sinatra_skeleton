@@ -62,7 +62,7 @@ GEM
     rack_csrf (2.5.0)
       rack (>= 1.1.0)
     rails-assets-jquery (2.2.0)
-    rails-assets-react (0.14.6)
+    rails-assets-react (0.14.7)
     rake (10.5.0)
     react-jsx-sprockets (0.2.2)
       execjs (>= 1.2.9)

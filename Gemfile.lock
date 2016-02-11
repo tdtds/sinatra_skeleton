@@ -11,7 +11,7 @@ GEM
       multi_json (~> 1.0)
     autotest (4.4.6)
       ZenTest (>= 4.4.1)
-    backports (3.6.7)
+    backports (3.6.8)
     bson (1.12.5)
     bson_ext (1.12.5)
       bson (~> 1.12.5)

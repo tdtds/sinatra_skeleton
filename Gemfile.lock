@@ -82,7 +82,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.4.0)
     rspec-support (3.4.1)
-    sass (3.4.21)
+    sass (3.4.22)
     sinatra (1.4.7)
       rack (~> 1.5)
       rack-protection (~> 1.4)

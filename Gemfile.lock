@@ -116,7 +116,7 @@ GEM
       sprockets (~> 2.0)
       tilt (~> 1.1)
     tilt (1.4.1)
-    tzinfo (0.3.48)
+    tzinfo (0.3.49)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
     yajl-ruby (1.2.1)

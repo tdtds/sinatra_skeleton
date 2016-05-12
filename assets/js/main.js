@@ -20,5 +20,5 @@ var DynamicSection = React.createClass({displayName: "DynamicSection",
 
 var dynamicSection = document.getElementById('dynamic_section');
 if (dynamicSection) {
-	React.render(React.createElement(DynamicSection, null), dynamicSection);
+	ReactDOM.render(React.createElement(DynamicSection, null), dynamicSection);
 }

@@ -3,9 +3,8 @@
 	%head
 		%meta{charset: 'UTF-8'}
 		%title FixMe
-		!= stylesheet_tag 'application'
 	%body
 		%h1 FixMe
 		#dynamic_section
 		.version<Ruby #{RUBY_VERSION}
-		!= javascript_tag 'application'
+		%script{src: "/js/app.js"}

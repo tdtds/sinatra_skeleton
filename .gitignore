@@ -15,12 +15,14 @@
 build/
 
 ## Documentation cache and generated files:
+*.log
 /.yardoc/
 /_yardoc/
 /doc/
 /rdoc/
 /assets/js/.module-cache/
-/public/assets/
+/public/js/*.js*
+/node_modules
 
 ## Environment normalisation:
 /.bundle/

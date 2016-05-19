@@ -6,7 +6,8 @@ using:
 
 * Sinatra
 * haml for view template engine
-* assets pipeline
+* npm and webpack for building JavaScripts and CSSs
+* React.js for frontend view
 * Twitter OAuth by OmniAuth
 * Mongoid for storage
 * Dalli for using memcached

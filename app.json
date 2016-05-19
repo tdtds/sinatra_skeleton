@@ -1,6 +1,9 @@
 {
   "name": "FixMe",
-  "scripts": {},
+  "addons":[
+    "memcachier",
+    "mongolab"
+  ],
   "env":{
     "LANG":"ja_JP.UTF-8",
     "RACK_ENV":"production",
@@ -11,8 +14,15 @@
       "required": true
     }
   },
-  "addons":[
-    "memcachier",
-    "mongolab"
+  "scripts": {
+    "postdeploy": "npm run production"
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-ruby"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }
   ]
 }

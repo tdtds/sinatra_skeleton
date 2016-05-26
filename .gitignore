@@ -21,7 +21,10 @@ build/
 /doc/
 /rdoc/
 /assets/js/.module-cache/
-/public/js/*.js*
+/public/js/*.js
+/public/css/*.css
+/public/img/*.(jpg|png)
+/public/*/*.map
 /node_modules
 
 ## Environment normalisation:

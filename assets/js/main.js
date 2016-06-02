@@ -1,7 +1,7 @@
 /*
  * main.js
  *
- * Copyright (C) 2015 by TADA Tadash <t@tdtds.jp>
+ * Copyright (C) 2016 by TADA Tadash <t@tdtds.jp>
  * You can modify and/or distribute this under GPL.
  */
 import 'babel-polyfill';

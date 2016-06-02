@@ -5,8 +5,8 @@
  * You can modify and/or distribute this under GPL.
  */
 import * as React from 'react';
-import {Flux, Component} from 'flumpt';
 import {render} from 'react-dom';
+import App from './container/app';
 
 require('../css/main.css');
 
@@ -16,33 +16,6 @@ var csrf_token = document.querySelector('meta[name="_cstf"]').content;
 fetch(..., {X_CSRF_TOKEN: csrf_token})...;
  *
  */
-
-class MyComponent extends Component {
-	componentDidMount() {
-		this.dispatch('increment');
-	}
-	render() {
-		return(
-			<div>
-				{this.props.count}
-				<button onClick={() => this.dispatch('increment')}>++</button>
-			</div>
-		);
-	}
-}
-
-class App extends Flux {
-	subscribe() {
-		this.on('increment', () => {
-			this.update(({count}) => {
-				return {count: count + 1};
-			});
-		});
-	}
-	render(state) {
-		return <MyComponent {...state}/>;
-	}
-}
 
 const app = new App({
 	renderer: el => {

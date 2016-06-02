@@ -1,5 +1,5 @@
 /*
- * main.jsx
+ * main.js
  *
  * Copyright (C) 2015 by TADA Tadash <t@tdtds.jp>
  * You can modify and/or distribute this under GPL.
@@ -7,16 +7,15 @@
 import * as React from 'react';
 import {Flux, Component} from 'flumpt';
 import {render} from 'react-dom';
-import jQuery from 'jquery';
 
 require('../css/main.css');
 
-jQuery.ajaxSetup({
-	beforeSend: function(xhr) {
-		var token = jQuery('meta[name="_csrf"]').attr('content');
-		xhr.setRequestHeader('X_CSRF_TOKEN', token);
-	}
-});
+/* === HOT TO SET CSRF TOKEN ===
+ *
+var csrf_token = document.querySelector('meta[name="_cstf"]').content;
+fetch(..., {X_CSRF_TOKEN: csrf_token})...;
+ *
+ */
 
 class MyComponent extends Component {
 	componentDidMount() {
@@ -66,15 +65,3 @@ app.on(":end-async-updating", () => {
 
 app.update(_initialState => ({count: 0}));
 
-/*
-var DynamicSection = React.createClass({
-	render() {
-		return <p>FixMe: this is dynamic section by React.js</p>;
-	}
-});
-
-var dynamicSection = document.getElementById('dynamic_section');
-if (dynamicSection) {
-	ReactDOM.render(<DynamicSection />, dynamicSection);
-}
-*/

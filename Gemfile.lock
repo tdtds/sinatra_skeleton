@@ -82,7 +82,7 @@ GEM
     sinatra-reloader (1.0)
       sinatra-contrib
     slop (3.6.0)
-    tilt (2.0.4)
+    tilt (2.0.5)
     tzinfo (0.3.49)
 
 PLATFORMS

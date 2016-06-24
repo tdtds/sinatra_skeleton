@@ -4,6 +4,11 @@
  * Copyright (C) 2015 by TADA Tadash <t@tdtds.jp>
  * You can modify and/or distribute this under GPL.
  */
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
 .version {
 	text-align: right;
 }

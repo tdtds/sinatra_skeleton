@@ -6,6 +6,7 @@
  */
 import * as React from 'react';
 import {Flux} from 'flumpt';
+import {MuiThemeProvider, AppBar} from 'material-ui';
 import Counter, {INCREMENT as COUNTER_INCREMENT} from '../component/counter';
 
 export default class App extends Flux {
@@ -17,7 +18,14 @@ export default class App extends Flux {
 		});
 	}
 	render(state) {
-		return <Counter {...state}/>;
+		return (
+			<div>
+				<MuiThemeProvider>
+					<AppBar title="FixMe" iconStyleLeft={{display: 'none'}} />
+				</MuiThemeProvider>
+				<Counter {...state}/>
+			</div>
+		);
 	}
 }
 

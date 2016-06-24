@@ -8,9 +8,11 @@ import 'babel-polyfill';
 import 'whatwg-fetch';
 import * as React from 'react';
 import {render} from 'react-dom';
+import injectTapEventPlugin from 'react-tap-event-plugin';
 import App from './container/app';
 
 require('../css/main.css');
+injectTapEventPlugin();
 
 /* === HOT TO SET CSRF TOKEN USING rack_csrf GEM ===
  *

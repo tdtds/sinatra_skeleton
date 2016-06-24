@@ -6,6 +6,8 @@
  */
 import * as React from 'react';
 import {Component} from 'flumpt';
+import {MuiThemeProvider, FloatingActionButton} from 'material-ui';
+import {ContentAdd} from 'material-ui/svg-icons';
 
 export const INCREMENT = "increment";
 
@@ -14,10 +16,20 @@ export default class Counter extends Component {
 		this.dispatch(INCREMENT);
 	}
 	render() {
+		const style = {marginTop: '1em', marginBottom: '0.5em'};
 		return(
-			<div>
+			<div style={{textAlign: 'center'}}>
+				<MuiThemeProvider>
+					<FloatingActionButton
+							secondary={true}
+							style={style}
+							mini={true}
+							onClick={() => this.dispatch(INCREMENT)}>
+						<ContentAdd />
+					</FloatingActionButton>
+				</MuiThemeProvider>
+				<br />
 				{this.props.count}
-				<button onClick={() => this.dispatch(INCREMENT)}>++</button>
 			</div>
 		);
 	}

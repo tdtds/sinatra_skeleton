@@ -15,8 +15,7 @@ gem "omniauth-twitter"
 
 group :development, :test do
 	gem 'rake'
-	gem 'rspec'
-	gem 'autotest'
+	gem 'guard-rspec'
 	gem 'sinatra-reloader', require: 'sinatra/reloader'
 	gem 'pry'
 end

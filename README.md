@@ -5,7 +5,7 @@ A Web application skeleton mainly running on Heroku.
 using:
 
 * Sinatra
-* haml for view template engine
+* hamlit for view template engine
 * npm and webpack for building JavaScripts and CSSs
 * React.js for frontend view
 * Twitter OAuth by OmniAuth

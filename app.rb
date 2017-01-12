@@ -7,7 +7,7 @@ require 'omniauth-twitter'
 
 module FixMe
 	class App < Sinatra::Base
-		set :haml, {format: :html5, escape_html: true}
+		set :haml, {format: :html5}
 		enable :logging
 	
 		enable :sessions

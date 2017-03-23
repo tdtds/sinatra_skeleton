@@ -8,14 +8,14 @@ module.exports = {
 	},
 	output: {
 		path: path.join(__dirname, 'public'),
-		filename: '/js/[name].js'
+		filename: './js/[name].js'
 	},
 	module: {
 		loaders: [
 			{
 				test: /\.js$/,
 				exclude: /node_modules/,
-				loader: 'babel',
+				loader: 'babel-loader',
 				query: {
 					cacheDirectory: true,
 					presets: ['react', 'es2015']
@@ -23,7 +23,7 @@ module.exports = {
 			},
 			{
 				test: /\.css$/,
-				loader: ExtractTextPlugin.extract("style-loader", "css-loader")
+				loader: ExtractTextPlugin.extract({use: 'css-loader', fallback: 'style-loader'})
 			},
 			{
 				test: /\.(png|jpg)$/,
@@ -35,7 +35,7 @@ module.exports = {
 		new ExtractTextPlugin('/css/[name].css')
 	],
 	resolve: {
-		extensions: ['', '.js', '.css']
+		extensions: ['*', '.js', '.css']
 	}
 };
 

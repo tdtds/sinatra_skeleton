@@ -31,7 +31,7 @@ GEM
       guard (~> 2.1)
       guard-compat (~> 1.1)
       rspec (>= 2.99.0, < 4.0)
-    hamlit (2.8.0)
+    hamlit (2.8.1)
       temple (>= 0.8.0)
       thor
       tilt
@@ -133,9 +133,6 @@ DEPENDENCIES
   rake
   sinatra
   sinatra-reloader
-
-RUBY VERSION
-   ruby 2.4.1p111
 
 BUNDLED WITH
    1.14.6

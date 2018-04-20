@@ -8,7 +8,7 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    backports (3.11.2)
+    backports (3.11.3)
     bson (4.3.0)
     bson_ext (1.5.1)
     coderay (1.1.2)
@@ -36,7 +36,7 @@ GEM
       thor
       tilt
     hashie (3.5.7)
-    i18n (1.0.0)
+    i18n (1.0.1)
       concurrent-ruby (~> 1.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)

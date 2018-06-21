@@ -23,7 +23,7 @@
     "babel-preset-react": "^6.23.0",
     "css-loader": "^0.27.3",
     "extract-text-webpack-plugin": "^2.1.0",
-    "file-loader": "^0.10.1",
+    "file-loader": "^1.1.11",
     "flumpt": "^0.2.0",
     "material-ui": "^0.17.1",
     "react": "^15.4.2",

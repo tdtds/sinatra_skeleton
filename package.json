@@ -24,7 +24,7 @@
     "css-loader": "^0.28.11",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^1.1.11",
-    "flumpt": "^0.2.0",
+    "flumpt": "^0.3.1",
     "material-ui": "^0.20.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",

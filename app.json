@@ -14,9 +14,7 @@
       "required": true
     }
   },
-  "scripts": {
-    "postdeploy": "npm run production"
-  },
+  "scripts": {},
   "buildpacks": [
     {"url": "https://github.com/heroku/heroku-buildpack-ruby"},
     {"url": "https://github.com/heroku/heroku-buildpack-nodejs"}

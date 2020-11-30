@@ -1,7 +1,7 @@
 production:
   clients:
     default:
-      uri: <%= ENV['MONGODB_URI'] || ENV['MONGOLAB_URI'] %>
+      uri: <%= ENV['MONGODB_URI'] %>
       options:
         retry_writes: false
 development:

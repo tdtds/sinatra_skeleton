@@ -44,11 +44,11 @@ GEM
     lumberjack (1.2.8)
     method_source (1.0.0)
     minitest (5.14.2)
-    mongo (2.13.1)
+    mongo (2.14.0)
       bson (>= 4.8.2, < 5.0.0)
-    mongoid (7.1.5)
+    mongoid (7.2.0)
       activemodel (>= 5.1, < 6.1)
-      mongo (>= 2.7.0, < 3.0.0)
+      mongo (>= 2.10.5, < 3.0.0)
     multi_json (1.15.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
@@ -125,7 +125,7 @@ DEPENDENCIES
   dalli
   guard-rspec
   hamlit
-  mongoid (~> 7.1)
+  mongoid (~> 7.2)
   omniauth
   omniauth-twitter
   puma

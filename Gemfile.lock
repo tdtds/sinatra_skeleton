@@ -73,7 +73,7 @@ GEM
       method_source (~> 1.0)
     puma (5.6.2)
       nio4r (~> 2.0)
-    rack (2.2.3)
+    rack (2.2.4)
     rack-protection (2.2.0)
       rack
     rack_csrf (2.6.0)
